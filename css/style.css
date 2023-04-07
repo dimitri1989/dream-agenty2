@@ -1,0 +1,734 @@
+*{
+    box-sizing: border-box;
+
+}
+html {
+    overflow-x: hidden;
+
+}
+body{
+    background: #ffffff;
+    overflow-x: hidden;
+    
+}
+
+.position-1{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.nav-h3{
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #331B3B;
+    font-weight: 700;
+   
+    top: 25px;
+    right: 35%;
+    z-index: 10;
+}
+.navbar-collapse{
+    width: 20px;
+   
+}
+.icons-top{
+    
+    display: flex;
+}
+.top-icons{
+    
+   width: 43.61px;
+    height: 49.61px;
+    border: 2px solid rgba(51, 27, 59, 0.64);
+    transform: rotate(30.5deg);
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.top-icons:last-child{
+ 
+    margin-right: 0px;
+}
+.top-icons img{
+    
+    height: 25px;
+    transform: rotate(-30.5deg);
+
+}
+mark{
+    display: inline-block;
+    padding: 0;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FDC221 50%);
+    line-height: 5px;
+    padding-bottom: 0.5em;
+    
+    
+
+}
+
+
+.nav-link{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #331B3B;
+    margin-right: 20px;
+    position: relative;
+    padding: 0;
+}
+.nav-link:hover:after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #FFDC60;
+    width: 50%;
+    top: 85%;
+    right: 40%;
+  }
+.nav-span{
+    font-weight: 700; 
+}
+.position2{
+    margin-right: 50px;
+}
+.hide{
+    display:flex;
+}
+.hide2{
+    display: flex!important;
+}
+.btn2{
+    width: 207px;
+    height: 66px;
+    background: #331B3B;
+    border-radius: 10px;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 137.3%;
+    /* or 23px */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border:none;
+}
+.btn2:hover{
+    width: 207px;
+    height: 66px;
+    background: #623770;  
+}
+.one-container{
+    margin-top: 170px;
+}
+.one__help {
+    font-size: 85px;
+    line-height: 99.8%;
+    /* or 87px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.one__help span{
+  
+    font-weight: 700;
+    font-size: 87px;
+    z-index: 2;
+    position: relative;
+ 
+}
+.one__text{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+    margin-bottom: 31px;
+}
+.one-border{
+    width: 581px;
+    height: 579px;
+    border: 2px dashed #000000;
+    border-radius:50%;
+    position: relative;
+   
+    top: 130px;
+    left: 0;
+}
+.one-img{
+    position: relative;
+    z-index: 2;
+    min-width: 500px;
+    height: 900px;
+}
+.left-img4{
+    position: absolute;
+    left: 116px;
+    top: -281px;
+    z-index: 0;
+}
+
+.one__left-img img{
+    position: absolute;
+    left: 242px;
+    top: -181px;
+    z-index: 0;
+}
+
+.left-img1{
+    position: absolute;
+    left: 15%;
+    top: -69px;
+    z-index: 1;
+
+}
+.left-img2{
+    position: absolute; 
+    z-index: 2;
+
+}
+.blue-background{
+    
+    margin-top: 229px;
+    width: 1293px;
+    height: 578px;
+    background: #ECF7FF;
+    border-radius: 0px 400px 0px 0px;
+    
+    padding-bottom: 50px;
+
+}
+.blue-contaner{
+    position: relative;
+    height: 600px;
+    
+    
+}
+.blue-contaner2{
+    height: 578px;
+    background: #ECF7FF;
+    border-radius: 0px 400px 0px 0px;
+    width: 1293px;
+    margin-top: 35px;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+/* blue conteiner*/
+.blue-contaner__border{
+    position: absolute;
+    width: 532px;
+    height: 498px;
+    border-radius:50%;
+    right: -170px;
+    top: 170px;
+    z-index: 0;
+    border: 2px dashed rgba(0, 0, 0, 0.26);
+}
+.blue-contaner__h2{
+    position: absolute;
+    z-index: 5;
+    
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    left: 30%;
+    padding-top: 97px;
+}
+.blue-contaner__h3{
+    position: absolute;
+    z-index: 5;
+    
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    text-align: left;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    display: block;
+    width: 400px;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+    width: 308px;
+    height: 192px;
+    margin-right: 57px;
+}
+.card-header{
+    border: none;
+    background: #FFFFFF;
+
+}
+.header__backgound{
+    background: #FFDED4;
+    border-radius: 10px;
+    width: 52px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__backgound-web2{
+    background: #FFEED4;
+}
+.header__backgound-web3{
+    background: #D4F0FF;
+}
+.header__backgound-web4{
+    background: #FFD4D4;
+}
+.header__backgound img{
+    width: 30px;
+    height: 30px;
+}
+.card-title{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 137.3%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: #331B3B;
+}
+.card-text{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 145.3%;
+    /* or 22px */
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+}
+.slide__box{
+    position: absolute;
+    z-index: 3;
+    left: 221px;
+    top: 360px;
+}
+.carousel__flex{
+    display: flex;
+}
+.corusel__background{
+    width: 35px;
+    height: 34px;
+    border: 2px solid #000000;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius:50%;
+}
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -119px;
+    bottom: 17px;
+}
+.carousel-control-next-icon{
+    position: absolute;
+    left: -1310px;
+    bottom: 17px;
+    
+}
+/*the-third-container*/
+.the-third__left{
+    position: relative;
+    margin-top: 160px;
+    width: 100%;
+    height: 100%;
+    
+}
+.the-third__left_1{
+    position: absolute;
+    z-index: 0;
+    width: 80%;
+    
+    border: 2px dashed #000000;
+    border-radius:50%;
+    
+}
+.the-third__left_1 img{
+    position: absolute;
+  
+}
+.mask-3{
+    position: relative;
+    width: 100%;
+    
+}
+.mask-3 img{
+    position: relative;
+    width: 100%;
+    
+}
+.mask-1{
+    position: absolute;
+    top: -30%;
+    left: -19px;
+    width: 128%;
+    
+}
+.mask-1 img{
+    width: 100%;
+    
+}
+.the-third__right {
+    margin-top: 60%;
+}
+.the-third__right__h2{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    
+}
+.the-third__right__h3{
+    font-weight: 400;
+    font-size: 35px;
+}
+.the-third__right__p{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: rgba(51, 27, 59, 0.66);
+}
+.carousel-inner {
+    position: absolute;
+    /* width: 100%; */
+    overflow: hidden;
+    width: 2000px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 207px;
+    bottom: 0;
+    left: 35px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+
+}
+.next, .prev{
+    top: 350px;  
+}
+/*fourth-container*/
+.fourth-container{
+    margin-top: 190px;
+    position: absolute;
+    top: -86px;
+}
+.fourth-container__text{
+    display: flex;
+    justify-content:space-between;
+}
+.fourth-container__text__h2{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.fourth-container__text__h3{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 106.3%;
+    /* or 51px */
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.fourth-container__text__p{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: #331B3B;
+}
+.fourth-container__background{
+    width: 1244px;
+    height: 673px;
+    background: rgba(255, 222, 212, 0.3);
+    border-radius: 400px 000px 0px 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+   
+ 
+}
+.position-1{
+    padding-left: 50px;
+    padding-right: 0px;
+    
+}
+.slide__box2 {
+    position: absolute;
+    z-index: 3;
+    left: 135px;
+    top: 248px;
+}
+.fourth-container__slide{
+    width: 419px;
+    height: 365px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.carousel-control-next-icon3 {
+    position: absolute;
+    left: -76px;
+    bottom: 17px;
+}
+.carousel-control-next-icon2 {
+    position: absolute;
+    left: -70px;
+    bottom: -39px;
+
+}
+.carousel-control-prev-icon2 {
+    position: absolute;
+    left: -117px;
+    bottom: -39px;
+}
+.fourth-container__slide1{
+    width: 286px;
+    height: 238px;
+    margin-right: 15px;
+}
+.fourth-container__slide2{
+    width: 89px;
+    height: 238px;
+}
+.fourth-container__slide__title{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 146.3%;
+    color: #331B3B;
+
+}
+.fourth-container__button{
+    width: 92px;
+    height: 23px;
+    border: 1px solid #343434;
+    border-radius: 100px;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146.3%;
+    /* or 20px */
+    color: #331B3B;
+}
+.fifth-container__title{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110.8%;
+    /* or 53px */
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+}
+.fifth-container{
+    margin-top: 100px;
+}
+.fifth-container__title2{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110.8%;
+    /* or 53px */
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #331B3B;
+    margin-bottom: 59px;
+}
+.fifth-container__item-text{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: #331B3B; 
+    
+}
+.fifth-container__item-icons1{
+    width: 46px;
+    height: 40px;
+    margin-top: 32px;
+}
+.fifth-container__item-titles{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.fifth-container__item-icons{
+    display: flex;
+    align-items: center;
+}
+.fifth-container__item-icons img{
+    width: 11px;
+    height: 4px;
+    margin-right: 7.5px;
+    margin-bottom: 32px;
+}
+.fifth-container__item{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 80%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+}
+.footer{
+    background: #000000;
+    border-radius: 0px 158px 0px 0px;
+    height: 453px;
+}
+.footer-title{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.footer-text{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.footer-get{
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+input{
+    width: 31%;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    background-color:#000000;
+}
+.buton3{
+    width: 143px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+input[type=email]{
+   color:white;
+   padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.span1 {
+    display: block;
+    height: 1.5px;
+    width: 12.75px;
+    border: 2px;
+    background: #FFFFFF;
+    margin-bottom: 4.5px;
+}
+.span2 {
+    display: block;
+    height: 1.5px;
+    width: 18px;
+    border: 2px;
+    background: #FFFFFF;
+    margin-bottom: 4.5px;
+}
+.span3 {
+    display: block;
+    height: 1.5px;
+    width: 12.75px;
+    border: 2px;
+    background: #FFFFFF;
+    margin-bottom: 4.5px;
+}
